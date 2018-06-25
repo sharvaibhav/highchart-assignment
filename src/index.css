@@ -3,3 +3,11 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.download-report-button {
+  padding: 5px 10px;
+  background-color: #808080;
+  margin-top: 50px;
+  border-radius: 2px;
+  color: white;
+}
