@@ -2,6 +2,10 @@ body{
   height:100%;
 }
 
-.main-component{
+.main-section{
   background-color:grey;
+}
+
+.content-section{
+  background-color:white;
 }

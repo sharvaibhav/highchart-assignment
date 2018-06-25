@@ -7,7 +7,7 @@ import './leftnav.css';
 class LeftNavigation extends Component {
 
     render(){
-        return(<div className='left-navigation col-md-3'>
+        return(<div className='left-navigation col-md-2'>
             <h2> Board </h2>
                 <ul className='navigation-list row'>
                 {navigationItems.map((entry)=>{
