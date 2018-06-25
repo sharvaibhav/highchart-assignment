@@ -1,0 +1,20 @@
+.left-navigation{
+    background-color:grey;
+    color: #fff;
+}
+
+.navigation-list{
+    list-style: none;
+    font-size: 20px;
+    margin-left:-35px;
+}
+.navigation-list li {
+    padding-top:20px;
+}
+
+.navigation-list li.active{
+    background-color:lightgray;
+}
+.navigation-list a{
+    color:#fff;
+}
