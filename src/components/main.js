@@ -6,7 +6,7 @@ import LeftNavigation from "./Leftnavigation";
 export default class Main extends Component {
     render(){
         return (
-            <div className='container-fluid'>
+            <div className='container-fluid main-component'>
                 <LeftNavigation />
                 <main className='col-md-9'>
                     <Route exact path="/dashboard" component={Dashboard} />
