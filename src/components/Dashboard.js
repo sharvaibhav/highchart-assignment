@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Chart from './charts/Chart';
 import {  barLineChartConfigBP, lineChartConfigHeartrate, bloodComponents, urineComponents  } from "../dummyData/dummyDataStore";
+
 class Dashboard extends Component {
     render(){
         return(<div className='dashboard'>

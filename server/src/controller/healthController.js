@@ -1,6 +1,3 @@
-/**
- * Created by IMFCORP\mohanpratap.singh on 27/3/17.
- */
 'use strict';
 const jsreport = require('jsreport-core')({
         templatingEngines: {
@@ -12,9 +9,6 @@ let jsreportStarted = false;
 
 
 const healthController = {
-    /**
-     * Generate the People data report
-     */
     generateReport: function (req, res) {
         let init;
         if (jsreportStarted) {
@@ -35,7 +29,6 @@ const healthController = {
                         }
                     }).then(function (resp) {
                         resp.stream.pipe(res);
-                        //res.send({});
                     });
                 }).catch(function (e) {
                     console.log(e)
@@ -92,7 +85,6 @@ const healthController = {
                         data: { peoples: peoples }
                     }).then(function (resp) {
                         resp.stream.pipe(res);
-                        //res.send({});
                     });
                 }).catch(function (e) {
                     console.log(e)

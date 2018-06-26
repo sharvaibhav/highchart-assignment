@@ -24,6 +24,7 @@
     "request": "^2.87.0"
   },
   "scripts": {
+    "ui-start":"react-scripts start",
     "start": "npm run build && node server/server.js",
     "build": "react-scripts build"
   }
