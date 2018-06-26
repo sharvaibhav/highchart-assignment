@@ -1,3 +1,11 @@
 body{
   height:100%;
 }
+
+.main-page{
+  background-color:grey;
+}
+
+.content-section{
+  background-color: #fff;
+}
