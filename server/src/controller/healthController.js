@@ -1,3 +1,4 @@
+
 'use strict';
 const jsreport = require('jsreport-core')({
         templatingEngines: {
@@ -9,6 +10,9 @@ let jsreportStarted = false;
 
 
 const healthController = {
+    /**
+     * Generate the People data report
+     */
     generateReport: function (req, res) {
         let init;
         if (jsreportStarted) {
