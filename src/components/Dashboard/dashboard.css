@@ -1,3 +1,30 @@
 .dashboard{
     background-color:white;
 }
+
+.heading-section-dashboard{
+    background-color:lightblue;
+    padding:10px 10px 20px 30px;
+    color:#f9f9f9;
+}
+
+.right-move{
+    float:right;
+}
+
+.logout-button{
+    margin-right: 9px;
+    margin-top: 7px;
+    float: right;
+}
+
+.hamburger{
+    font-size: 26px;
+    padding-top: 4px;
+    margin-left: -34px;
+}
+
+.input-search{
+    margin-top:10px;
+    margin-left:-43px
+}

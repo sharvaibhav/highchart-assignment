@@ -3,9 +3,16 @@ body{
 }
 
 .main-page{
-  background-color:grey;
+  background-color:#272828;
 }
 
 .content-section{
   background-color: #fff;
+  min-height:900px;
 }
+
+.reporting,.performance-component,.links-component,dashboard{
+  min-height: 900px;
+}
+
+

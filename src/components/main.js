@@ -8,7 +8,7 @@ import Performance from "./Performance/Performance";
 export default class Main extends Component {
     render(){
         return (
-            <div className='container-fluid main-page'>
+            <div className='container-fluid main-page row'>
                 <LeftNavigation />
                 <main className='col-md-10 content-section'>
                     <Route exact path="/" component={Dashboard} />

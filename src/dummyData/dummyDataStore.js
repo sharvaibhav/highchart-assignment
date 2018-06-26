@@ -1,10 +1,10 @@
 import Highcharts from 'highcharts';
 
 export const navigationItems = [
-    {label:'DashBoard',link: '/dashboard',icon:'bar-chart'},
-    {label:'Reporting',link: '/reporting',icon:'table'},
-    {label:'Performance',link: '/performance',icon:'tachometer'},
-    {label:'Links',link: '/links',icon:'anchor'},
+    {label:'DashBoard',link: '/dashboard',icon:'bar-chart',active:true},
+    {label:'Reporting',link: '/reporting',icon:'table',active:false},
+    {label:'Performance',link: '/performance',icon:'tachometer',active:false},
+    {label:'Links',link: '/links',icon:'anchor',active:false},
 ]
 
 export const barLineChartConfigBP = {
